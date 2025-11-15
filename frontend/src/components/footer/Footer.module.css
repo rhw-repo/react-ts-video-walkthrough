@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--nav-footer-background-color);
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+  width: 100%;
+  height: var(--nav-footer-height);
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--link-color);
+  font-size: clamp(0.875rem, 2vw, 1.5rem);
+}
+
+.icon {
+  margin-right: 0.25rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .footer {
+    height: var(--nav-footer-height-landscape);
+  }
+}

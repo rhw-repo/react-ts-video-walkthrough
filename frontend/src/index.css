@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url("/fonts/LeagueSpartan-VariableFont_wght.woff2") format("woff2"),
+    url("/fonts/LeagueSpartan-VariableFont_wght.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("/fonts/LibreBaskerville-Regular.woff2") format("woff2"),
+    url("/fonts/LibreBaskerville-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-font: "Libre Baskerville";
+  --secondary-font: "League Spartan";
+  --nav-footer-height: 6rem;
+  --nav-footer-height-landscape: 3rem;
+  --nav-footer-background-color: #252525;
+  --link-color: #e0ac69;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
