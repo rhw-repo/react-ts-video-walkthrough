@@ -6,7 +6,7 @@
   height: var(--nav-footer-height);
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--nav-footer-background-color);
   padding: 1rem 2rem;
@@ -46,6 +46,6 @@
 
 @media screen and (min-width: 1024px) {
   .navbar {
-    justify-content: space-around;
+    justify-content: center;
   }
 }

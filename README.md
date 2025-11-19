@@ -4,7 +4,6 @@
 
 A single-page mini-site built to host a 2 min video walkthrough of a dashboard style app with React on the front-end. 
 
-## <a href="https://frontend-production-32c1.up.railway.app/login" target="_blank" rel="noopener noreferrer">View the final Live Demo here</a>
 ---
 
 At this milestone, the app supports:
